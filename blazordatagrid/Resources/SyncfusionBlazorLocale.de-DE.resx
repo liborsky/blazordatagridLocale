@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>Titel hinzufügen</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>Warnen</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>Den ganzen Tag</value>
+  </data>
+  <data name="Schedule_BeginForm" xml:space="preserve">
+    <value>Beginnen Sie von</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>Ereignisse können nicht innerhalb des gesperrten Zeitbereichs geplant werden.</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>Stornieren</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>Stornieren</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>Die Dauer des Ereignisses muss kürzer als die Häufigkeit sein, mit der es auftritt. Verkürzen Sie die Dauer oder ändern Sie das Wiederholungsmuster im Wiederholungsereignis-Editor.</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>Möchten Sie diesen Termin wirklich löschen?</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>Diese Veranstaltung</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>Möchten Sie die ausgewählten Ereignisse wirklich löschen?</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>Mehrere Ereignisse löschen</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>Ganze Serie</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>Ereignis löschen</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>Wie möchten Sie den Termin in der Serie ändern?</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>Diese Veranstaltung</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>Folge Veranstaltungen</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>Wiederholung bearbeiten</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>Ganze Serie</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>Ereignis bearbeiten</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>An diesem Tag sind keine Veranstaltungen geplant.</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>Ende um</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>Zeitzone beenden</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>Das ausgewählte Enddatum liegt vor dem Startdatum.</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>Ort</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>Monat</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>Monatsagenda</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>Mehr</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>Mehr Details</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>Neues Event</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>Nächster</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>Keine Ereignisse</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>(Kein Titel)</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>Auftreten</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>In Ordnung</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>Bisherige</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>Wiederholung</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>Wiederholt</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>Zwei Ereignisse desselben Ereignisses können nicht am selben Tag auftreten</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>speichern</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>speichern</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>Elemente ausgewählt</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>Serie</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>Möchten Sie die an bestimmten Instanzen dieser Serie vorgenommenen Änderungen verwerfen und erneut mit der gesamten Serie abgleichen?</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>Das ausgewählte Enddatum liegt vor dem Startdatum.</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>Starten Sie die Zeitzone</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>Gegenstand</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>Timeline Day</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>Timeline-Monat</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>Timeline-Woche</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>Timeline Work Week</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>Timeline-Jahar</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>Zeitzone</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>Heute</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>Woche</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>Wochenprogramm</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>Arbeitswoche</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>Arbeitswochen-Agenda</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>Das Wiederholungsmuster ist ungültig.</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Slider_DecrementTitle" xml:space="preserve">
+    <value>Decrease</value>
+  </data>
+  <data name="Slider_IncrementTitle" xml:space="preserve">
+    <value>Increase</value>
+  </data>
+  <data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>CloseButtonTitle</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+</root>

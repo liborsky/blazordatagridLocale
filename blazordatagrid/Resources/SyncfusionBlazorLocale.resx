@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RecurrenceEditor_Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="RecurrenceEditor_Daily" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="RecurrenceEditor_Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="RecurrenceEditor_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="RecurrenceEditor_Every" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="RecurrenceEditor_First" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
+    <value>Fourth</value>
+  </data>
+  <data name="RecurrenceEditor_Last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="RecurrenceEditor_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
+    <value>MonthExpander</value>
+  </data>
+  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
+    <value>MonthPosition</value>
+  </data>
+  <data name="RecurrenceEditor_Months" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
+    <value>MonthWeek</value>
+  </data>
+  <data name="RecurrenceEditor_Never" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="RecurrenceEditor_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="RecurrenceEditor_On" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
+    <value>OnDay</value>
+  </data>
+  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
+    <value>RepeatEvery</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
+    <value>RepeatInterval</value>
+  </data>
+  <data name="RecurrenceEditor_Second" xml:space="preserve">
+    <value>Second</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
+    <value>SummaryDay</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
+    <value>SummaryMonth</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
+    <value>SummaryOn</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
+    <value>SummaryRepeat</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
+    <value>SummaryTimes</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
+    <value>SummaryUntil</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
+    <value>SummaryWeek</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
+    <value>SummaryYear</value>
+  </data>
+  <data name="RecurrenceEditor_Third" xml:space="preserve">
+    <value>Third</value>
+  </data>
+  <data name="RecurrenceEditor_Until" xml:space="preserve">
+    <value>Until</value>
+  </data>
+  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
+    <value>Weeks</value>
+  </data>
+  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
+    <value>YearExpander</value>
+  </data>
+  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
+    <value>Yearly</value>
+  </data>
+  <data name="RecurrenceEditor_Years" xml:space="preserve">
+    <value>Years</value>
+  </data>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>AddTitle</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>AllDay</value>
+  </data>
+  <data name="Schedule_BeginForm" xml:space="preserve">
+    <value>BeginForm</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>BlockAlert</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>CancelButton</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>CreateError</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>CreateEvent</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>DeleteButton</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>DeleteContent</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>DeleteEvent</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>DeleteMultipleContent</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>DeleteMultipleEvent</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>DeleteSeries</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>DeleteTitle</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>EditContent</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>EditEvent</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>EditFollowingEvent</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>EditRecurrence</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>EditSeries</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>EditTitle</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>EmptyContainer</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>EndAt</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>EndTimezone</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>InvalidDateError</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>MonthAgenda</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>MoreDetails</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>NewEvent</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>NoEvents</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>NoTitle</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>Occurrence</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>Recurrence</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>Repeats</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>SameDayAlert</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>SaveButton</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>SelectedItems</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>SeriesChangeAlert</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>StartEndError</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>StartTimezone</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>TimelineDay</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>TimelineMonth</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>TimelineWeek</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>TimelineWorkWeek</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>TimelineYear</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>Timezone</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>WeekAgenda</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>WorkWeek</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>WorkWeekAgenda</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>WrongPattern</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Slider_DecrementTitle" xml:space="preserve">
+    <value>Decrease</value>
+  </data>
+  <data name="Slider_IncrementTitle" xml:space="preserve">
+    <value>Increase</value>
+  </data>
+  <data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>CloseButtonTitle</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>LoadingText</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>EditIcon</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>EditAreaClick</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>EditAreaDoubleClick</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>CardsSelected</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>AddTitle</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>EditTitle</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>DeleteTitle</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>DeleteContent</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>Alignments</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>JustifyLeft</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>JustifyCenter</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>JustifyRight</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>JustifyFull</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>FontName</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>FontSize</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>FontColor</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>BackgroundColor</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>ClearFormat</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>ClearAll</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>UnorderedList</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>OrderedList</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>Indent</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>Outdent</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>CreateLink</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>OpenLink</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>EditLink</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>RemoveLink</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>InsertLink</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>AltText</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>Fullscreen</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>LowerCase</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>UpperCase</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>Formats</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>Sourcecode</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>Viewside</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>InsertCode</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>LinkText</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>LinkTooltipLabel</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>LinkWebUrl</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>LinkTitle</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>LinkUrl</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>LinkOpenInNewWindow</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>LinkHeader</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>DialogInsert</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>DialogCancel</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>DialogUpdate</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>ImageHeader</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>ImageLinkHeader</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>MdImageLink</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>ImageUploadMessage</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>ImageDeviceUploadMessage</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>ImageAlternateText</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>AlternateHeader</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>ImageUrl</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>ImageCaption</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>ImageSizeHeader</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>ImageHeight</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>ImageWidth</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>TextPlaceholder</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>InsertTableBtn</value>
+  </data>
+  <data name="RichTextEditor_TabledialogHeader" xml:space="preserve">
+    <value>TabledialogHeader</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>TableWidth</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>Cellpadding</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>Cellspacing</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>TableRows</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>TableColumns</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>TableCellHorizontalAlign</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>TableCellVerticalAlign</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>CreateTable</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>RemoveTable</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>TableHeader</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>TableRemove</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>TableCellBackground</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>TableEditProperties</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>Styles</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>InsertColumnLeft</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>InsertColumnRight</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>DeleteColumn</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>InsertRowBefore</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>InsertRowAfter</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>DeleteRow</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>TableEditHeader</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>TableHeadingText</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>TableColText</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>ImageInsertLinkHeader</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>EditImageHeader</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>AlignmentsDropDownLeft</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>AlignmentsDropDownCenter</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>AlignmentsDropDownRight</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>AlignmentsDropDownJustify</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>ImageDisplayDropDownInline</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>ImageDisplayDropDownBreak</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>TableInsertRowDropDownBefore</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>TableInsertRowDropDownAfter</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>TableInsertRowDropDownDelete</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>TableInsertColumnDropDownLeft</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>TableInsertColumnDropDownRight</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>TableInsertColumnDropDownDelete</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>TableVerticalAlignDropDownTop</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>TableVerticalAlignDropDownMiddle</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>TableVerticalAlignDropDownBottom</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>TableStylesDropDownDashedBorder</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>TableStylesDropDownAlternateRows</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>PasteFormat</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>PasteFormatContent</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>PlainText</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>CleanFormat</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>KeepFormat</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>PasteDialogOk</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>PasteDialogCancel</value>
+  </data>
+  <data name="Toast_Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+</root>
